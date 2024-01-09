@@ -41,7 +41,7 @@ body{
 #btn5 {
     background-color: black;
     color: white;
-    width: 350px; /* Set a fixed width */
+    max-width: 350px; /* Set a fixed width */
     height: 60px; /* Set a fixed height */
     font-weight: bold;
     border-radius: 25px;
@@ -82,7 +82,7 @@ text-decoration: none;
     #btn6 {
         background-color: #0fb348;
         color: black;
-        width: 350px; /* Set a fixed width */
+        width: 250px; /* Set a fixed width */
         height: 50px; /* Set a fixed height */
         font-weight: bold;
         border-radius: 25px;

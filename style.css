@@ -56,6 +56,17 @@ text-decoration: none;
     margin: 10px;
     letter-spacing: 1px;
 }
+#btn1
+{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+}
 a:hover{
     text-decoration: none;
 }
@@ -216,4 +227,31 @@ a:hover{
     letter-spacing: 1px;
     border: 1px solid white;
    
+}
+
+@media (max-width: 322px) {
+  #btn1
+  {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 20px;
+      font-family: 'Noto Sans', sans-serif;
+      margin: 10px;
+      letter-spacing: 1px;
+      font-size: 10px;
+  }
+  #btn2
+  {
+      background-color: #242424;
+      color: #b3b3b3;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 15px;
+      font-family: 'Noto Sans', sans-serif;
+      margin: 10px;
+      letter-spacing: 1px;
+      font-size: 10px;
+  }
 }
